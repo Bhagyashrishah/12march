@@ -1,0 +1,20 @@
+package bhagya;
+
+public class childclass {
+	int c=45;
+	public static void demo() {
+		System.out.println("i am child class");
+	}
+	public static void main(String args[])
+	{
+		childclass r=new  childclass();
+		
+		r.demo();
+		parentclass r1=new parentclass();
+		r1.test1();
+		r1.test2();
+		r1.test3();
+		
+	}
+
+}

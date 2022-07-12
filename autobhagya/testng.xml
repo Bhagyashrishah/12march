@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="zeodha">
+  <test thread-count="5" name="Regration">
+<parameter name="a" value="5"></parameter>
+<parameter name="b" value="10"></parameter>
+    <classes>
+      <class name="Test.CovertinfblogintoTestNG"/>
+      <class name="Test.keywords">
+      </class>
+      <class name="Test.TestNGAnnotation"/>
+</classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

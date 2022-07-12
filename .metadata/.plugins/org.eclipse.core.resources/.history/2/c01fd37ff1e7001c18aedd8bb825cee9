@@ -1,0 +1,21 @@
+package pckg;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class iframe {
+	public static void main(String[] args) {
+		
+	
+	WebDriver driver =op. openBrowser("https://vctcpune.com/selenium/practice.html");
+	driver.switchTo().frame("courses-iframe");
+	
+	
+	WebElement course =driver.findElement(By.xpath("//a[text()='Courses'])[1]"));
+	course.click();
+	}
+	
+}

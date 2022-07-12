@@ -1,0 +1,21 @@
+package bhagya;
+
+public class over extends overriding {
+	int c= 23;
+	
+	public void demo()
+	{
+		System.out.println("i am child");
+	}
+public void test1()
+{
+	System.out.println("hello java");
+	
+	}
+public static void main(String args)
+{
+	over q=new over();
+	q.demo();
+}
+
+}
