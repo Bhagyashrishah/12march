@@ -57,17 +57,17 @@ public void zerodhabuyStock() throws EncryptedDocumentException, IOException, In
 		 Thread.sleep(3000);
 		// sellstock.clickOnSell();
 }
-		@Test
-		public void test1()
+//	@Test
+	//	public void test1()
 			{
-				System.out.println("timepass");
+		//		System.out.println("timepass");
 			}
 		
 		
 
 
 		
-	}
+	
 
 //	@AfterMethod
 ///	public void screenshot() throws IOException
